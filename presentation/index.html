@@ -21,22 +21,13 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-
-		<style>
-			.container{
-				display: flex;
-			}
-			.col{
-				flex: 2 auto;
-			}
-		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>Blogolás szabadon</h1>
-					<h4>SFD Szeged 2019</h3>
+					<h2>Blogolás szabadon</h2>
+					<h4>SFD Szeged 2019</h4>
 
 					<br>
 					
@@ -49,25 +40,131 @@
 				</section>
 
 				<section>
-					<h2>Blogolás</h1>
+					<h2>Blogolás</h2>
 					<br>
 
-					mint dolog mi az
+					Wikipedia definíció: 
+
+					<br>
+					<small>
+						"A blog egy olyan periodikusan újabb bejegyzésekkel bővülő weboldal, amely ezek sorozatából áll, függetlenül attól, hogy mi az oldal témája, formája és hogy nyilvánosan elérhető-e. "
+					
+						<br>
+						<br>
+
+						A közösségi oldalak előtt gyakorlatilag ez volt a de-facto formája annak, hogy valaki véleményt nyilvánít ki az interneten.
+					</small>
+
+					<br>
+					<br>
+
+					<small>
+						Történelem: 
+						<a href="https://en.wikipedia.org/wiki/History_of_blogging" target="_blank" rel="noopener">
+							https://en.wikipedia.org/wiki/History_of_blogging
+						</a>
+					</small>
+
+					<br>
+					<br>
+
+					<small>
+						Klasszikus blogmotorok:
+						<ul>
+							<li><a href="https://wordpress.com/">Wordpress</a></li>
+							<li><a href="https://www.drupal.org/">Drupal</a></li>
+						</ul>
+					</small>
 
 				</section>
 				
 				<section>
-					<h2>A hullámvasút</h1>
+					<h2>Közösségi oldalak</h2>
 					<br>
 	
-					nagyon népszerű volt, aztán jött facebook, myspace és háttérbeszorult	
+					<ul>
+						<li>online vélemény nyilvánítás elérhető lett a tömegek számára</li>
+						<li>központosított platformok</li>
+						<li>blogolásra egyik sem kifejezetten alkalmas</li>
+						<li>cenzúra</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Problémák</h2>
+					<br>
+	
+					<ul>
+						<li>Twitter: karakterlimit (inkább helyszíni tudósításokra használják)</li>
+						<li>Facebook: zárt csoportok jellemzőbbek, blogolásra kevesen használják</li>
+						<li>Instagram: képmegosztó, karakterlimit</li>
+					</ul>
+
+					<br>
+					<br>
+					A facebook/twitter előretörése alatt a blogolás háttérbe szorult. 
+
 				</section>
 				
 				<section>
-					<h2>Újjászületés</h1>
+					<h2>Új remény</h2>
 					<br>
 
+					<small>Evan Williams a Twitter társalapítója megalapítja a Medium.com platformot aminek célja, hogy terjedelmesebb írásokat publikálhassanak rajta a felhasználók.</small>	 
+					<br>
+					<br>
+					<small>A cég története: <a href="https://en.wikipedia.org/wiki/Medium_(website)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Medium_(website)</a></small>
+					
+					<br>
 
+					<small>
+						A platformot sok kritika érte az miatt, hogy a felület tele van oda nem illő felugró ablakokkal, és bannerekkel. 
+						Továbbá valójában más írásaiból szeretnének pénzt keresni:
+						<br>
+						<br>
+						<ul>
+							<li><a href="https://medium.com/@ourielohayon/medium-please-fix-your-product-b063f800cb9d" target="_blank" rel="noopener">https://medium.com/@ourielohayon/medium-please-fix-your-product-b063f800cb9d</a></li>
+							<li><a href="https://medium.com/@nikitonsky/medium-is-a-poor-choice-for-blogging-bb0048d19133" target="_blank" rel="noopener">https://medium.com/@nikitonsky/medium-is-a-poor-choice-for-blogging-bb0048d19133</a></li>
+						</ul>
+					</small>
+				</section>
+
+				<section>
+					<h2>Új generációs platformok</h2>
+					<br>
+					
+					<small>
+						Egyre népszűbbek a pusztán a felhasználó oldalán javascript segítségével renderelt oldalak. 
+						Ezek az oldalak csak és kizárólag, fájlokból állnak, amik egy fájlszerverről kiszolgálhatóak. 
+					</small>
+
+					<br>
+					<br>
+
+					<small>
+						Élesítés előtt jellemzően nodejs segítségével kerülnek "lefordításra", 
+						amely lépés során a kiszolgált adatok nagysága csökkenthető, vagy olyan műveletek végezhetőek el amelyeket eredetileg a kliensnek kellett volna.   
+					</small>
+
+					<br>
+					<br>
+
+					<small>
+						Blogolásra használható (is) megoldások:
+						<br>
+						<ul>
+							<li>Jekyll: <a href="https://jekyllrb.com" target="_blank" rel="noopener">https://jekyllrb.com</a></li>
+							<li>Gatsby.js: <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener">https://www.gatsbyjs.org</a></li>
+							<li>Ghost: <a href="https://ghost.org" target="_blank" rel="noopener">https://ghost.org</a></li>
+							<li>Hugo: <a href="https://gohugo.io" target="_blank" rel="noopener">https://gohugo.io</a></li>
+						</ul>
+					</small>
+
+					<small>
+						Munkafolyamat:
+						<br>
+
+					</small>
 				</section>
 
 				<section>
@@ -81,7 +178,6 @@
 					<p>Köszönöm a figyelmet!</p>	
 					<p>Kérdések?</p>
 
-					
 					<br>
 
 					<small>
@@ -91,12 +187,7 @@
 						</a>
 						<br>
 						<strong>Licensz: </strong> MIT
-					</small>
-					
-							
-					</div>
-
-
+					</small>						
 				</section>
 
 			</div>
