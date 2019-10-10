@@ -1,5 +1,6 @@
 [build]
-  command = "source deploy.sh"
+  base = "blog/gatsby"
+  command = "cd .. && source deploy.sh"
   publish = "blog/gatsby/public/"
 
 [template]
