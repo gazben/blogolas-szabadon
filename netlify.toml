@@ -1,7 +1,6 @@
 [build]
-  base = "blog/gatsby"
-  command = "gatsby build production"
-  publish = "public/"
+  command = "source deploy.sh"
+  publish = "blog/gatsby/public/"
 
 [template]
   incoming-hooks = ["Ghost"]

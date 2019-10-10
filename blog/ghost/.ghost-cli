@@ -2,6 +2,5 @@
   "active-version": "2.34.0",
   "cli-version": "1.11.0",
   "name": "ghost-local",
-  "previous-version": "2.34.0",
-  "running": "development"
+  "previous-version": "2.34.0"
 }
