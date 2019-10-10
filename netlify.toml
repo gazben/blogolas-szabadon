@@ -1,6 +1,6 @@
 [build]
   base = "blog/gatsby"
-  command = "gatsby build"
+  command = "gatsby build production"
   publish = "blog/gatsby/public/"
 
 [template]
