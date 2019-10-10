@@ -2,9 +2,9 @@
 
 cd ghost
 npm install ghost-cli@latest
-ghost update --force
-ghost start
+node_modules/.bin/ghost update --force
+node_modules/.bin/ghost start
 cd ../gatsby
 gatsby build production
 cd ../ghost
-ghost stop
+node_modules/.bin/ghost stop
