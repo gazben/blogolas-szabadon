@@ -3,7 +3,7 @@
  * Minimal theme for reveal.js.
  * Author: Mike Beasley
  */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Source+Code+Pro:400,700|Bubbler+One);
 html * {
   color-profile: sRGB;
   rendering-intent: auto; }
@@ -16,7 +16,7 @@ body {
   background-color: #FFFFFF; }
 
 .reveal {
-  font-family: Roboto, sans-serif;
+  font-family: "Source Sans Pro", "Bubbler One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #000000; }
@@ -47,7 +47,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #000000;
-  font-family: "Montserrat", Roboto, sans-serif;
+  font-family: "Source Sans Pro", "Bubbler One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -325,20 +325,3 @@ section + section {
 
 .reveal.overview .slides section {
   background: none; }
-
-
-.footer {
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-  padding: 15px 20px;
-}
-
-.footer-logo {
-  margin-left: auto;
-}
-
-.footer-logo img {
-  height: 40px;
-  width: auto;
-}
